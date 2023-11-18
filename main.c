@@ -62,7 +62,7 @@ int wmain() {
 
     int spamtime = 0;
 
-    printf("[Whatspammer] Data is being read from spam.txt\n");
+    printf("[Whatspammer] Data is being read from spam.txt.\n");
 
     printf("[Whatspammer] Enter Number of Spams: ");
 
