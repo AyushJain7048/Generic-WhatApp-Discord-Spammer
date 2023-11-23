@@ -13,7 +13,7 @@ BOOL CALLBACK EnumWindowsProc(HWND hwnd, LPARAM lParam) {
     GetClassNameW(hwnd, className, sizeof(className) / sizeof(className[0]));
     GetWindowTextW(hwnd, windowText, sizeof(windowText) / sizeof(windowText[0]));
 
-    wprintf(L"Window Class: %s, Title: %s\n", className, windowText);
+    //wprintf(L"Window Class: %s, Title: %s\n", className, windowText);
 
     // Check if the window title contains the target application name
     wchar_t* targetAppName = (wchar_t*)lParam;
