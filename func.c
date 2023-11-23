@@ -22,7 +22,7 @@ void typeString(const char* str, int spamSpeed) {
             keybd_event(VK_SHIFT, 0, KEYEVENTF_KEYUP, 0);
         }
 
-        Sleep(5);
+ 
     }
 
 

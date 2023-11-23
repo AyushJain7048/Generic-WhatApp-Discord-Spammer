@@ -25,7 +25,7 @@ BOOL CALLBACK EnumWindowsProc(HWND hwnd, LPARAM lParam) {
 
     return TRUE;
 }
-int wmain() {
+void wmain() {
 
     printf("[Whatspammer] Welcome to Whatspammer. \n[Whatspammer] Made by Ayush Jain.\n");
 
