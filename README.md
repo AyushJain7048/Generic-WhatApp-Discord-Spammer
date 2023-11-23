@@ -18,7 +18,7 @@ This C program allows you to send a specified string to any Windows application 
 1. Clone the repository:
    ```bash
 	git clone https://github.com/Clauck007/Generic-WhatApp-Discord-Spammer.git
-	Compile it with any gcc compiler.
+2. Compile it with any gcc compiler.
 
 2. Enter String in spam.txt
 3. Enter Number of Spam
